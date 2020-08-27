@@ -32,15 +32,13 @@ h3 {
   color: #3ec7a9;
   /* font-family: 'Montserrat', sans-serif; */
   font-weight: bolder;
+  margin: 1rem;
 }
 
 p {
   line-height: 2;
   display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+  margin: 1rem;
 }
 
 hr {
@@ -80,7 +78,10 @@ a:hover {
 .top-container h1 h2 {
   color: #af614c;
 }
+.portfolio h3 {
+  margin: 40px auto 60px;
 
+}
 .middle-container {
   margin: 100px 0;
 }
@@ -108,11 +109,12 @@ a:hover {
 .contact-message {
   max-width: 780px;
   margin: 40px auto 60px;
+
 }
 
 .copyright {
   color: #F4F1DE;
-  font-size: 0.75rem;
+  font-size: .8rem;
   padding: 20px 0;
 }
 
@@ -186,7 +188,7 @@ a:hover {
 
 .btn:hover {
   background: #30e3cb;
-  color: #fff;
+  color: #000;
   text-decoration: none;
   border: 0px 0px 10px 0px solid #fff;
 }
